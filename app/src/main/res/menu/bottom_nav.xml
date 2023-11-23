@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Calculate"
+        android:icon="@drawable/baseline_calculate_24"/>
+
+    <item
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/Workout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_workout_24"
+        android:title="Workout" />
+    <item
+        android:id="@+id/Setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Setting"
+        android:icon="@drawable/baseline_person_2_24"/>
+    <item
+        android:id="@+id/Blog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Blog"
+        android:icon="@drawable/baseline_book_24"/>
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set the background color of the square -->
+    <solid android:color="#FFEB3B" />
+
+    <!-- Optionally, you can add a stroke (border) around the shape -->
+    <stroke
+        android:color="#FFEB3B"
+        android:width="40dp" />
+
+    <!-- Set the corner radius to make it square (equal for all corners) -->
+    <corners
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp" />
+</shape>

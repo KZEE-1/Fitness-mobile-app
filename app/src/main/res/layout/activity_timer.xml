@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Timer">
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="254dp"
+        android:layout_height="245dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Timer: 00:00"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/controlsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/PrimaryButton"
+        android:layout_below="@id/controlsLayout"
+        android:layout_marginTop="4dp"
+        android:onClick="onStartButtonClick"
+        android:text="Start Timer" />
+
+    <Button
+        android:id="@+id/btnStop"
+        style="@style/SecondaryButton"
+        android:text="Stop Timer"
+        android:layout_below="@id/btnStart"
+        android:layout_marginTop="8dp"
+        android:onClick="onStopButtonClick"
+        android:enabled="false" />
+
+
+    <Button
+        android:id="@+id/btnReset"
+        style="@style/SecondaryButton"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/controlsLayout"
+        android:layout_marginTop="121dp"
+        android:enabled="false"
+        android:onClick="onResetButtonClick"
+        android:text="Reset" />
+
+
+</RelativeLayout>

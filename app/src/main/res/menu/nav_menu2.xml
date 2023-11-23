@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_dumbbel_curls"
+        android:title="Dumbbell Curls"/>
+    <item
+        android:id="@+id/menu_barbell_curls"
+        android:title="Barbell Curls"/>
+    <item
+        android:id="@+id/menu_spider_curls"
+        android:title="Spider Curls"/>
+
+</menu>

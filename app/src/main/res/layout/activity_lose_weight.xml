@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoseWeight">
+
+
+
+
+    <!-- Add your layout elements here, e.g., TextViews, ImageViews, etc. -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Deficit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="299dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@drawable/calorie_deficit_diet_how_to" />
+
+    <TextView
+        android:id="@+id/bmrInfoTextView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="1. Calculate your maintenance calories: Determine the number of calories you need to maintain your current weight. This is influenced by factors like age, weight, height, activity level, and metabolism. There are online calculators that can help with this."
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/bmrInfoTextView2"
+        android:layout_width="300dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="2.  Set a realistic goal: Aim for a calorie deficit that is sustainable and healthy. A common guideline is to create a daily deficit of 500 to 1000 calories, which can result in a weight loss of about 1-2 pounds per week."
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmrInfoTextView" />
+
+    <TextView
+        android:id="@+id/bmrInfoTextView3"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="3.  Track your food intake: Use a food diary or a mobile app to track everything you eat and drink. Be honest and accurate in your tracking to get a clear picture of your daily calorie intake."
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmrInfoTextView2" />
+
+    <TextView
+        android:id="@+id/bmrInfoTextView4"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="4.   Stay hydrated: Sometimes, our bodies can mistake thirst for hunger. Drinking water can help you stay hydrated and reduce the likelihood of overeating."
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmrInfoTextView3" />
+
+    <TextView
+        android:id="@+id/bmrInfoTextView5"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="5.  Be patient and consistent: Weight loss takes time, and it's essential to be patient and consistent with your efforts. Small, sustainable changes are more likely to lead to long-term success."
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmrInfoTextView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

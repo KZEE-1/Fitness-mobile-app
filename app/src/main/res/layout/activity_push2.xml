@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    tools:context=".Push2">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutVideo"
+        android:layout_width="337dp"
+        android:layout_height="610dp"
+        android:layout_gravity="center"
+        android:background="@drawable/video_border"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"> <!-- Add a drawable for the border effect -->
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="330dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center|center_vertical" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Overhead Press"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav" />
+
+    <!-- Add this button wherever you want in your layout -->
+
+    <ImageButton
+        android:id="@+id/btnOpenSidebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="toggleNavigationView"
+        android:src="@drawable/menu_fill0_wght400_grad0_opsz24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="288dp"
+        android:layout_height="634dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        app:headerLayout="@layout/nav_header"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        app:menu="@menu/nav_menu">
+
+
+        <ImageButton
+            android:id="@+id/btnOpenSidebar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/menu_fill0_wght400_grad0_opsz24"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018" />
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

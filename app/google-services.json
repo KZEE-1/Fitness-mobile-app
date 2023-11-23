@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "859564750894",
+    "firebase_url": "https://k-fit-aaae5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "k-fit-aaae5",
+    "storage_bucket": "k-fit-aaae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859564750894:android:fa98224499e3b31d3647bf",
+        "android_client_info": {
+          "package_name": "com.example.kfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859564750894-vjhgk5bqbsl0695bp28t0tk9o0q3q1u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kfit",
+            "certificate_hash": "603ba60002490da7098cb49ad1d4e5bd3788246f"
+          }
+        },
+        {
+          "client_id": "859564750894-bmd45n3esu8fk8e75gm4e05lmbt1pm83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI-Lznrw1i_SSkflgRfz2qW4Du1GGP0Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859564750894-bmd45n3esu8fk8e75gm4e05lmbt1pm83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

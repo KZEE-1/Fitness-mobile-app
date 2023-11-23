@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_bench_press"
+        android:title="Bench Press"/>
+    <item
+        android:id="@+id/menu_overhead_press"
+        android:title="Overhead Press"/>
+    <item
+        android:id="@+id/menu_lateral_raise"
+        android:title="Lateral Raise"/>
+    <item
+        android:id="@+id/menu_dumbbel_fly"
+        android:title="Dumbbell Fly"/>
+    <!-- Add more menu items as needed -->
+</menu>
